@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Proyecto Angel Cornejo</title>
+    <meta name="author" content="Ángel Cornejo D.">
+    <link rel="stylesheet" href="./src/styles/output.css">
+    <link rel="stylesheet" href="./src/styles/input.css">
+    <script src="./scr/scripts/skills.js" defer></script>
+    <script src="./scr/scripts/projects.js" defer></script>
+</head>
+
+<body class=" bg-dark text-light">
+
+    <!--NavBar PRINCIPAL-->
+    <header>
+        <div id="navigator" class="bg-gray-900 flex justify-between item-center p-3">
+            <span> <img src="./src/images/mac_logo.webp" alt="Logo MACD" class="h-10"> </span>
+            <nav id="navbar"
+                class="fixed top-0 items-center h-full w-48 sm:w-64 bg-gray-800 shadow-lg transform translate-x-full transition-transform duration-300 z-50 md:relative md:translate-x-0 md:h-auto md:w-auto md:bg-transparent md:shadow-none md:flex md:items-center md:space-x-6 p-4 md:p-0 hidden text-xs md:text-base ">
+                <ul class="flex flex-col md:flex-row gap-4 text-lg space-around text-light">
+                    <li><a href="./index.html"
+                            class="hover:underline cursor-pointer hover:bg-highlight px-3 py-1 rounded"
+                            target="_blank">HOME</a> </li>
+                    <li><a href=" #skills"
+                            class="hover:underline cursor-pointer hover:bg-highlight px-3 py-1 rounded">SKILLS</a></li>
+                    <li><a href="#projects"
+                            class="hover:underline cursor-pointer hover:bg-highlight px-3 py-1 rounded">PROJECTS</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <a href="#contact"
+                        class="bg-neon-green text-black py-2 px-4 rounded-lg cursor-pointer hover:bg-highlight">
+                        <span>CONTACT</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none"
+                            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="bg-neonGreen rounded-full p-1">
+                            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                            <path d="M15 9l-6 6" />
+                            <path d="M15 15v-6h-6" />
+                        </svg>
+                    </a>
+                </div>
+
+
+        </div>
+    </header>
+
+    <!--Hero Section-->
+    <section id="hero"
+        class="  bg-deep-blue h-[60vh] md:h-[90vh] flex flex-col justify center items-center text-highlight overflow-hidden">
+        <div id="gradient"
+            class="w-full inset-0 bg-gradient-to-b from-dark to-deep-blue flex flex-col justify center items-center text-highlight">
+            <h1 class="text-3xl md:text-5xl md:top-4 text-light">I'm
+                <span class=" text-highlight font-bold">
+                    Angel Cornejo</span>
+            </h1>
+            <h2 class="text-xl md:text-5xl font-medium mt-4 text-light"><span
+                    class="border border-white border-dotted  rounded-md"> Full Stack</span>
+                Developer</h2>
+
+            <!-- Hero IMG-->
+            <div class="flex flex-col justify-center items-center px-1 w-full sm:w-1/3">
+                <img src="./src/images/foto_mac.png" alt="Foto MAC"
+                    class="object-cover md:max-w-[500px] md:w-auto md:h-auto h-full drop-shadow-[0_20px_50px_rgba(227,255,106,0.7)]">
+                <a href="#projects" class="bg-highlight text-dark py-1 px-3 lg:py-2 lg:px-6
+                    rounded-full hover:bg-neon-green border border-black shadow shadow-black ">MY
+                    PROJECTS </a>
+            </div>
+            <!-- Background-->
+            <div
+                class="hidden md:flex flex-wrap justify-between w-full max-w-4xl h-full items-center  px-6 sm:px-10 absolute">
+                <div id="review_left"
+                    class="w-full md:w-1/4 bg-deep-blue p-6 rounded-lg shadow  md:absolute md:left-5 md:z-20 md:-rotate-6">
+                    <img src="./src/images/review_wf.png" alt="My Expertise" class="w-48 h-26 object-cover">
+                </div>
+                <div id="expertise_right"
+                    class="w-full md:w-1/4 bg-deep-blue p-6 rounded-lg shadow-lg md:absolute md:right-5 md:z-20 md:rotate-6">
+                    <img src="./src/images/myexpertise_wf.png" alt="My Expertise"
+                        class="w-48 h-30 object-cover shadow-[4px_4px_10px_rgba(0,0,0,0.3)]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO AM I-->
+    <section id="about_me" class="py-20 px-1 bg-dark">
+        <div class="flex flex-row gap-7 items-center justify-between">
+            <div class="sm:flex flex-col justify-between items-center w-1/5 h-full hidden">
+                <div class="flex justify-center items-start transform rotate-[20deg] h-28 md:w-20 md:h-28 mt-4 py-4">
+                    <img src="./src/images/mac-a.jpg" alt="Foto MACD3"
+                        class="w-full h-full object-cover rounded-lg drop-shadow-[0_20px_50px_rgba(227,255,106,0.7)]">
+                </div>
+                <div class="flex justify-center items-end transform rotate-[-15deg] h-32 md:w-20 md:h-48 mb-4">
+                    <img src="./src/images/mac-b.jpg" alt="Foto MACD3"
+                        class="w-full h-full object-cover rounded-lg drop-shadow-[0_20px_50px_rgba(227,255,106,0.7)]">
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center text-center px-1 w-full sm:w-1/3">
+                <h2 class="text-4xl lg:text-5xl xl:text-7xl font-bold mb-6">WHO AM I?</h2>
+                <p class="text-lg text-soft-gray mb-6">
+                    Soy un profesional apasionado de la tecnología y la programación. Me considero un profesional
+                    multidisciplinario capaz de adaptarse a diferentes proyectos y cambios tecnológicos. Habituado a
+                    trabajar bajo presión, capacitado para innovar para el desarrollo de soluciones tecnológicas que
+                    impulsan el rendimiento y la competitividad de la organización.
+                </p>
+                <a href="#allprojects"
+                    class="bg-green-500 text-white py-2 px-6 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all">
+                    Show My Projects
+                </a>
+            </div>
+
+            <div class="sm:flex justify-center items-center w-1/5 hidden">
+                <div class="transform rotate-[20deg] h-32 md:w-48 md:h-48">
+                    <img src="./src/images/mac-c.jpg" alt="Foto MACD3"
+                        class="w-full h-full object-cover rounded-lg drop-shadow-[0_20px_50px_rgba(227,255,106,0.7)]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section class="sect-skill" id="skills">
+        <div class="w-full bg-dark py-4 px-8">
+            <h2 class="text-center text-4xl md:text-7xl md:text-highlight font-bold ">MY SKILLS</h2>
+            <div class="habilidades" id="hability">
+                <!-- Icon Container-->
+                <div class="flex flex-wrap justify-center items-center max-w-[850px] gap-3 mx-auto lg:flex-row lg:flex lg:justify-center"
+                    id="card_container" role="contenedor de los iconos de habilidades">
+
+                    <!--1 HTML-->
+                    <div class="habilidades" id="hability">
+                        <div class="bg-deep-blue w-24 h-38 mb-4 lg:mb-8
+                            shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800
+                            rounded-md flex items-center justify-center
+                            px-5">
+                            <br><br>
+                            <img src="./src/images/html-5.png" alt="HTML Icon">
+                            <!--<span> Nombre: HTML</span>
+                            <span> Nivel:2</span> -->
+                        </div>
+                    </div>
+                    <!--Card Expirence Years-->
+                    <div
+                        class="w-full lg:max-w-[230px] lg:px-1 lg:py-4 lg:max-h-[300px] py-8 rounded-md text-center lg:bg-deepBlue border border-gray-800 ">
+                        <h3 class="text-9xl lg:text-5xl font-semibold lg:my-4">1</h3>
+                        <p class="lg:font-bold lg:px-18 lg:my-4">Years Expirence Working</p>
+
+                        <button class="mt-4 bg-highlight text-dark py-2 px-6 rounded-full hover:bg-neon-green"
+                            onclick="window.location.href='./src/docs/CurriculumMACD.PDF';"
+                            download="My_Curriculum_Vitae.png">
+                            Get my CV
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADITIONAL SKILLS SECTION-->
+    <section id="add_skill" class="py-16 text-center bg-deep-blue lg:bg-dark ">
+        <div class="lg:w-5xl lg:mx-auto lg:py-16 lg:bg-deep-blue lg:border lg:border-gray-800 
+            p-4">
+            <h2 class="text-highlight text-4xl lg:text-highlight font-medium p-4"> ADDITIONAL SKILLS</h2>
+
+            <div class="flex justify-center space-x-8 nt-6 flex-wrap">
+                <!--Python Icon-->
+                <div class="w-12 h-12 ">
+                    <img src="./src/images/python.png" alt="Python Icon">
+                </div>
+                <!--C++ Icon-->
+                <div class="w-12 h-12">
+                    <img src="./src/images/cplusplus.png" alt="C++ Icon">
+                </div>
+                <!--C# Icon-->
+                <div class="w-12 h-12">
+                    <img src="./src/images/csharp.png" alt="C# Icon">
+                </div>
+                <!-- MySQL Icon -->
+                <div class="w-12 h-12">
+                    <img src="./src/images/mysql.png" alt="MySQL Icon">
+                </div>
+                <!-- Postgree Icon-->
+                <div class="w-12 h-12">
+                    <img src="./src/images/postgree.png" alt="Postgree Icon">
+                </div>
+                <!--GitHub Icon-->
+                <div class="w-12 h-12">
+                    <img src="./src/images/github.png" alt="Git Hub Icon">
+                </div>
+            </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <div class="flex flex-col md:flex-row items-center justify-center">
+            <!-- Título -->
+            <div
+                class="flex flex-col text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 px-3 items-center justify-center">
+                <span>THE WORKS </span>
+                <span>CLOSEST TO </span>
+                <span> MY HEART</span>
+            </div>
+
+            <!-- Contenedor de imágenes -->
+            <div class="flex flex-col md:flex-row gap-3 justify-center items-center">
+                <!-- Imagen Proyecto 1 (100% en móvil, 25% en desktop) -->
+                <div class="px-3 flex items-center justify-center overflow-hidden w-full md:w-1/8">
+                    <img src="./src/images/proy1.bmp" alt="Proyecto 1" class="h-280 object-cover rounded-lg">
+                </div>
+
+                <!-- Imagen Proyecto 2 (100% en móvil, 12.5% en desktop) -->
+                <div class="px-3 flex items-center justify-center overflow-hidden w-full md:w-1/8">
+                    <img src="./src/images/proy2.bmp" alt="Proyecto 2" class="h-280 object-cover rounded-lg">
+                </div>
+
+                <!-- Imagen Proyecto 3 (100% en móvil, 12.5% en desktop) -->
+                <div class="px-3 flex items-center justify-center overflow-hidden w-full md:w-1/8">
+                    <img src="./src/images/proy3.bmp" alt="Proyecto 3" class="h-280 object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Botón (debe ocupar todo el ancho en pantallas grandes) -->
+    <div class="lg:col-span-12 w-full px-3">
+        <a href="./projects.html"
+            class="button1 bg-neon-green-500 text-white py-2 px-6 rounded-lg hover:bg-neon-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all block text-center w-full">
+            SHOW MY PROJECTS
+        </a>
+    </div>
+
+
+    <section class="contact" id="contact">
+        <div class="content-center bg-white w-full max-w-lg mx-auto mt-8 rounded-lg p-6">
+            <h2 class="text-black text-4xl lg:text-5xl font-bold text-center p-4">Let's Have a Chat</h2>
+            <form id="formulario" action="#" method="POST">
+                <input
+                    class="border border-gray-300 w-full bg-gray-100 text-black px-3 py-2 mb-4 rounded-lg focus:outline-none focus:ring-1 focus:ring-soft-gray"
+                    type="text" placeholder="Tu Nombre" required>
+                <input
+                    class="border border-gray-300 w-full bg-gray-100 text-black px-3 py-2 mb-4 rounded-lg focus:outline-none focus:ring-1 focus:ring-soft-gray invalid:focus:ring-red-400"
+                    type="email" placeholder="Email" required>
+                <textarea
+                    class="border border-gray-300 w-full bg-gray-100 text-black px-3 py-2 mb-4 rounded-lg focus:outline-none focus:ring-1 focus:ring-soft-gray"
+                    placeholder="Deja tu comentario aquí" required>
+                </textarea>
+                <button type="submit"
+                    class="bg-neon-green text-black w-full py-3 border border-amber-600 rounded-full hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all p-2">
+                    <p class="text-center font-semibold">SUBMIT HERE</p>
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
