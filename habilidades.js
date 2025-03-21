@@ -35,11 +35,7 @@ const habilidades = [
     },
 ];
 
-/**
- * @description Funcion para insertar las tarjetas de las habilidades en el HTML
- * @param {Array} array - lista de habilidades con icon, subject
- * @param {Node} elementoHTML  - Elemento HTML que recibe las tarjetas en el documento HTML.
- */
+
 function loadSubjectsCards(array, elementoHTML) {
     elementoHTML.innerHTML = "";
 
@@ -55,5 +51,5 @@ function loadSubjectsCards(array, elementoHTML) {
     }
 }
 
-// Llamada para insertar las tarjetas
+
 loadSubjectsCards(habilidades, contenedor);
