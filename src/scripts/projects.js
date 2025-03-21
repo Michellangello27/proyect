@@ -48,7 +48,7 @@ const projects = [
     },
 ];
 
-function loadProductsCards(items, element) {
+function loadSubjectsCards(items, element) {
     element.innerHTML = "";
     for (let i = 0; i < items.length; i++) {
         const proy = items[i];
@@ -69,5 +69,5 @@ function loadProductsCards(items, element) {
     }
 }
 
-loadProductsCards(projects, project_card);
+loadSubjectsCards(projects, project_card);
 

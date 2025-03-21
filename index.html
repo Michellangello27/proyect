@@ -124,38 +124,34 @@
     </section>
 
     <!--Skills Section-->
-    <section class="sect-skill" id="skills">
-        <div class="w-full bg-dark py-4 px-8">
-            <h2 class="text-center text-4xl md:text-7xl md:text-highlight font-bold ">MY SKILLS</h2>
-            <div class="habilidades" id="hability">
-                <!-- Icon Container-->
-                <div class="flex flex-wrap justify-center items-center max-w-[850px] gap-3 mx-auto lg:flex-row lg:flex lg:justify-center"
-                    id="card_container" role="contenedor de los iconos de habilidades">
+    <section class="flex flex-col items-center">
+        <h2 class="text-4xl lg:text-5xl xl:text-7xl font-bold mb-6">MY SKILLS</h2>
+        <div class="w-screen h-screen bg-dark flex items-center justify-center">
 
-                    <!--1 HTML-->
-                    <div class="habilidades" id="hability">
-                        <div class="bg-deep-blue w-24 h-38 mb-4 lg:mb-8
-                            shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800
-                            rounded-md flex items-center justify-center
-                            px-5">
-                            <br><br>
-                            <img src="./src/images/html-5.png" alt="HTML Icon">
-                            <!--<span> Nombre: HTML</span>
-                            <span> Nivel:2</span> -->
-                        </div>
-                    </div>
-                    <!--Card Expirence Years-->
+            <div
+                class="flex flex-col-reverse w-full mx-4 sm:w-4/5 max-w-3xl p-4 bg-blackwhite rounded-md shadow-lg gap-2 md:flex-row">
+
+                <div class="w-full grid subjects-grid justify-between gap-2" role="subjects container"
+                    id="subjects_cards">
                     <div
-                        class="w-full lg:max-w-[230px] lg:px-1 lg:py-4 lg:max-h-[300px] py-8 rounded-md text-center lg:bg-deepBlue border border-gray-800 ">
-                        <h3 class="text-9xl lg:text-5xl font-semibold lg:my-4">1</h3>
-                        <p class="lg:font-bold lg:px-18 lg:my-4">Years Expirence Working</p>
+                        class="text-center w-full h-32 border p-2 rounded-md border-gray-300 shadow-md text-sm flex flex-col justify-center">
+                        <img src="./src/images/html-5.png" alt="" width="32" class="mx-auto my-2">
+                        <h2 class="text-blue-500 font-bold">HTML</h2>
+                    </div>
+                </div>
 
+                <div class="w-full md:w-40 shrink-0 h-full ">
+                    <div class="w-full h-full border border-gray-300 shadow-md text-center p-2 rounded-md"
+                        id="promedio">
+                        <h2 class="text-9xl lg:text-5xl font-semibold lg:my-4">1</h2>
+                        <p class="lg:font-bold lg:px-18 lg:my-4">Years Expirence Working</p>
                         <button class="mt-4 bg-highlight text-dark py-2 px-6 rounded-full hover:bg-neon-green"
                             onclick="window.location.href='./src/docs/CurriculumMACD.PDF';"
                             download="My_Curriculum_Vitae.png">
                             Get my CV
                         </button>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -171,6 +167,7 @@
                 <!--Python Icon-->
                 <div class="w-12 h-12 ">
                     <img src="./src/images/python.png" alt="Python Icon">
+                    <h6>Python</h6>
                 </div>
                 <!--C++ Icon-->
                 <div class="w-12 h-12">
@@ -191,6 +188,10 @@
                 <!--GitHub Icon-->
                 <div class="w-12 h-12">
                     <img src="./src/images/github.png" alt="Git Hub Icon">
+                </div>
+                <!--GitHub Icon-->
+                <div class="w-12 h-12">
+                    <img src="./src/images/filmora.png" alt="Filmora Icon">
                 </div>
             </div>
     </section>

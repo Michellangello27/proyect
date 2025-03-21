@@ -1,4 +1,3 @@
-//habilidades.js
 const contenedor = document.querySelector('#subjects_cards');
 
 const habilidades = [
