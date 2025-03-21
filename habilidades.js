@@ -10,7 +10,7 @@ const habilidades = [
         subject: "CSS",
     },
     {
-        icon: "./src/images/java-scripts.png",
+        icon: "./src/images/java-script.png",
         subject: "JAVASCRIPT",
     },
     {
